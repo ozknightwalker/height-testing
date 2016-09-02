@@ -10,7 +10,5 @@
 
 
 ##ScreenShots##
-[first]: http://i.imgur.com/NHo8QMS.png
-[after inpt]: http://i.imgur.com/m8bcywK.png
-
-
+![initial interface](http://i.imgur.com/NHo8QMS.png "initial look")
+![after input](http://i.imgur.com/m8bcywK.png "after input")
