@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Document</title>
+    </head>
+    <body>
+        <!-- Table Starts Here -->
+        <table>
+            <tr>
+                <th>time</th>
+                <th>cushionheight</th>
+                <th>faucetheight</th>
+            </tr>
+            {% for h in height %}
+            <tr>
+                <td>{{h.date_time|date:"F j,Y" }}</td>
+                <td>{{h.cushion}}</td>
+                <td>{{h.faucet}}</td>
+            </tr>
+            {% endfor %}
+        </table>
+        <br /><br />
+        <!-- Form Starts Here -->
+        <form method="POST">
+            {% csrf_token %}
+            <table>
+                <tr>
+                    <td><label for="id_cushion">cushionheight:</label></td>
+                    <td>{{f1.cushion}}</td>
+                </tr>
+                <tr>
+                    <td><label for="id_faucet">faucetheight:</label></td>
+                    <td>{{f1.faucet}}</td>
+                </tr>
+            </table>
+            <!-- OR USE f1.as_table() -->
+            <input type="submit" value="record">
+        </form>
+    </body>
+</html>
