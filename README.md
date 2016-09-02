@@ -7,3 +7,10 @@
 4. run `python manage.py runserver` to run app locally
 5. visit [http://localhost:8000/here](http://localhost:8000)to view the page
 
+
+
+##ScreenShots##
+[first]: http://i.imgur.com/NHo8QMS.png
+[after inpt]: http://i.imgur.com/m8bcywK.png
+
+
